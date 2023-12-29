@@ -17,8 +17,6 @@ import {
 //     QueryPaymentsArgs,
 // } from '../generated-shop-types';
 
-
-
 @Resolver()
 export class ShopResolver {
     constructor(private connection: TransactionalConnection, private listQueryBuilder: ListQueryBuilder) {}

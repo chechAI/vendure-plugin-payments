@@ -11,7 +11,10 @@ export const PAYMENT_FRAGMENT = gql`
         state
         transactionId
         errorMessage
-
+        order {
+            id
+            code
+        }
         refunds {
             id
             createdAt

@@ -21,6 +21,7 @@ export const commonApiExtensions = gql`
 `;
 
 export const shopApiExtensions = gql`
+    ${commonApiExtensions}
 `;
 
 export const adminApiExtensions = gql`
